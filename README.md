@@ -10,3 +10,5 @@ La idea es tomar esos datos con ESP32's y manejar todo tipo de salidas y display
 6) podria usarse un broker mqtt local para menor latencia.
 7) Desde el ESP32 nos podriamos conectar al mqtt y ya manejar todo tipo de actuadores y displays (ejemplos de uso de mqtt con ESP32 en github.com/jtoobe)
 8) que lo disfruten!!!!
+
+Falta probar en FSX y P3D
