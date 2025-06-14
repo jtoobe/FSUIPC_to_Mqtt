@@ -18,6 +18,10 @@ Nuevo branch!!
 
 fsuipc_to_mqtt.c Version que toma configuraciones del archivo config.ini Esto permite una mayor flexibilidad para incorporar offset´s a publicar en mqtt
 
+Aqui se puede definir que broker mqtt usar (usar uno corriendo en la PC donde se ejecuta el simulador para menor latencia)
+Se puede definir el intervalo de publicacion en ms
+Se pueden definir que offset se publican.
+
 *************************************************************************************************************************************
 
 Falta probar en P3D
