@@ -8,9 +8,27 @@ La idea es tomar esos datos con ESP32's y manejar todo tipo de salidas y display
 4) compilamos este programa con: cl FS2004_to_Mqtt.c FSUIPC_User.lib paho-mqtt3c.lib /link User32.lib /NODEFAULTLIB:LIBC.lib
 5) ejecutamos y conectandose a: https://www.hivemq.com/demos/websocket-client/ se puede verificar el topic simulador/#
 6) podria usarse un broker mqtt local para menor latencia.
-7) Desde el ESP32 nos podriamos conectar al mqtt y ya manejar todo tipo de actuadores y displays (ejemplos de uso de mqtt con ESP32 en github.com/jtoobe)
-8) que lo disfruten!!!!
+7) Desde el ESP32 nos podriamos conectar al mqtt y ya manejar todo tipo de actuadores y displays
+
+******************************************************************************************************
 
 Probado en FSX Steam con FSUIPC 4.977 (version no registrada)
 
+******************************************************************************************************
+
+fsuipc_to_mqtt.c  Version que toma configuraciones del archivo config.ini
+Esto permite una mayor flexibilidad para incorporar offset´s a publicar en mqtt
+
+******************************************************************************************************
+
 Falta probar en P3D
+
+******************************************************************************************************
+
+Que permite este desarrollo? Tener conectados por wifi varios ESP32 a los datos del simulador.
+Esta forma de comunicacion no consume recursos de la maquina donde se ejecuta FS2004/FSX.
+Podrian emularse instrumentos como modulos independientes usando pantallas tft de bajo costo o
+usar servos e impresion 3D para instrumental analogico. En mi caso usando coolers de PC para
+crear un efecto de forceFeedback en el yugo y asiento.
+
+Que lo disfruten !!!!
