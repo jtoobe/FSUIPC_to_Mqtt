@@ -14,7 +14,7 @@ Probado en FSX Steam con FSUIPC 4.977 (version no registrada)
 
 *************************************************************************************************************************************
 
-Nuevo!!
+Nuevo branch!!
 
 fsuipc_to_mqtt.c Version que toma configuraciones del archivo config.ini Esto permite una mayor flexibilidad para incorporar offset´s a publicar en mqtt
 
