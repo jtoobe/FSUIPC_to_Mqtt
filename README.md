@@ -13,7 +13,7 @@ La idea es tomar esos datos con ESP32's y manejar todo tipo de salidas y display
 9) En la carpeta FSUIPC_TO_MQTT esta la version que solo LEE valores de FSUIPC y los publica en MQTT
 10) En la carpeta MQTT_TO_FSUIPC esta la version que LEE valores de FSUIPC y los publica en MQTT y tambien LEE valores de MQTT y los inyecta en FSUIPC para controlar el simulador
 11) En el branch principal la definicion de valores esta en el fuente del programa
-12) la DLL 
+12) la DLL paho-mqtt3c.dll tiene que estar en la carpeta donde se ejecuta el programa !!!!!!
 
 *************************************************************************************************************************************
 
