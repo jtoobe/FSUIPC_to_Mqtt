@@ -49,3 +49,10 @@ https://docs.arduino.cc/tutorials/uno-wifi-rev2/uno-wifi-r2-mqtt-device-to-devic
 Explicacion del protocolo MQTT por Luis LLamas (Pagina Excelente!!!)
 
 https://www.luisllamas.es/enviar-y-recibir-mensajes-por-mqtt-con-arduino-y-la-libreria-pubsubclient/
+
+********************************************************************************
+
+En la foto ejecutandose con un ESP32 + 2.4 TFT SPI
+
+![mqtt_to_fsuipc](https://github.com/user-attachments/assets/41ef7515-3f7c-4dc7-8e54-ad5df7a278cd)
+
