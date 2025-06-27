@@ -21,8 +21,8 @@ WiFiClient WIFI_CLIENT;
 PubSubClient MQTT_CLIENT;
 
 // Nombre y contraseña red WiFi.
-const char* ssid = "UA-Alumnos";
-const char* password = "41umn05WLC";
+const char* ssid = "*******************";
+const char* password = "*****************";
 
 
 
@@ -198,6 +198,7 @@ void callback(char* recibido, byte* payload, unsigned int length) {
   entero = atoi(mensaje);
 
   if (strcmp(recibido, "simulador/VSpeed") == 0) {
+    // falta ajustar los calculos para adecuarlo al grafico en el display
     if (VSpeed + 65000) {
       VSpeed = map(entero, 0, 1000, 0, 100) + 75;
     } else {
