@@ -1,4 +1,4 @@
-Programa en "C" que toma datos de FSUIPC 3.999 corriendo en un FS2004 y los publica en HiveMq (mqtt)
+Programa en "C" que toma datos de FSUIPC corriendo en un FS2004/FSX y los publica en HiveMq (mqtt)
 
 La idea es tomar esos datos con ESP32's y manejar todo tipo de salidas y displays
 
