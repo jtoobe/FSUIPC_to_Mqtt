@@ -26,7 +26,7 @@ Falta probar en P3D
 
 *************************************************************************************************************************************
 
-Que permite este desarrollo? Tener conectados por wifi varios ESP32 a los datos del simulador. Esta forma de comunicacion no consume recursos de la maquina donde se ejecuta FS2004/FSX. Podrian emularse instrumentos como modulos independientes usando pantallas tft de bajo costo o usar servos e impresion 3D para instrumental analogico. En mi caso usando coolers de PC para crear un efecto de forceFeedback en el yugo y asiento.
+Que permite este desarrollo? Tener conectados por wifi varios ESP32 a los datos del simulador. Esta forma de comunicacion no consume recursos de la maquina donde se ejecuta FS2004/FSX (Solo 18mb de RAM). Podrian emularse instrumentos como modulos independientes usando pantallas tft de bajo costo o usar servos e impresion 3D para instrumental analogico. En mi caso usando coolers de PC para crear un efecto de forceFeedback en el yugo y asiento.
 
 Uso mobiflight para la construccion de cabinas de vuelo, este desarrollo permitiria la liberacion de recursos usando solo los MEGA para inputs si usas el programa de la carpeta FSUIPC_TO_MQTT
 
