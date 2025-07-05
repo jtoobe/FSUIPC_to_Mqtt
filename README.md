@@ -30,7 +30,7 @@ Que permite este desarrollo? Tener conectados por wifi varios ESP32 a los datos 
 
 Uso mobiflight para la construccion de cabinas de vuelo, este desarrollo permitiria la liberacion de recursos usando solo los MEGA para inputs si usas el programa de la carpeta FSUIPC_TO_MQTT
 
-El programa de la carpeta MQTT_TO_FSUIPC permite la comunicacion bidireccional entre MQTT y el SIM y permitiria dejar de usar Mobiflight. Igualmente habria que ver el tema de latencia al configurar muchos topics.
+El programa de la carpeta MQTT_TO_FSUIPC permite la comunicacion bidireccional entre MQTT y el SIM y permitiria complementar a Mobiflight. Igualmente habria que ver el tema de latencia al configurar muchos topics.
 
 Que lo disfruten !!!!
 
