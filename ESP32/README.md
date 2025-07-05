@@ -4,4 +4,6 @@ La GUI fue hecha con GUI Slicer usando la libreria TFT_eSPI
 
 GUI Slicer: https://github.com/ImpulseAdventure/GUIslice
 
+Todos los archivos deben estar en la misma carpeta para la IDE de Arduino
+
 
