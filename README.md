@@ -34,6 +34,8 @@ El programa de la carpeta MQTT_TO_FSUIPC permite la comunicacion bidireccional e
 
 Que lo disfruten !!!!
 
+Por favor si probaron esta aplicacion en MSFS (2020) / X-Plane / P3D o tienen sugerencias para mejorarla mi mail: jtoobe@hotmail.com
+
 *************************************************************************************************************************************
 
 Como usar un arduino mega para conectarlo a MQTT ?
