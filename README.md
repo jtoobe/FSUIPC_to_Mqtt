@@ -11,7 +11,7 @@ La idea es tomar esos datos con ESP32's y manejar todo tipo de salidas y display
 7) podria usarse un broker mqtt local para menor latencia. Probado con nanomq ( https://nanomq.io/downloads?os=Windows ), con solo correr el ejecutable alcanza.
 8) Desde el ESP32 nos podriamos conectar al mqtt y ya manejar todo tipo de actuadores y displays
 9) En la carpeta FSUIPC_TO_MQTT esta la version que solo LEE valores de FSUIPC y los publica en MQTT
-10) En la carpeta MQTT_TO_FSUIPC esta la version que LEE valores de FSUIPC y los publica en MQTT y tambien LEE valores de MQTT y los inyecta en FSUIPC para controlar el simulador
+10) En la carpeta FSUIPC_AND_MQTT esta la version que LEE valores de FSUIPC y los publica en MQTT y tambien LEE valores de MQTT y los inyecta en FSUIPC para controlar el simulador
 11) En el branch principal la definicion de valores esta en el fuente del programa
 12) la DLL paho-mqtt3c.dll tiene que estar en la carpeta donde se ejecuta el programa !!!!!!
 
