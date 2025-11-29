@@ -2,7 +2,7 @@ Programa en C que permite exportar offset de FSUIPC a MQTT e importar offset des
 
 los valores se definen en el archivo config.ini
 
-Por ejemplo:
+Por ejemplo: 
 
 [dato1]
 offset=0x0570
